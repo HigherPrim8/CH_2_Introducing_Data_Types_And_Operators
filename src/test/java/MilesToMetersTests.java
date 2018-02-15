@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 public class MilesToMetersTests {
 
-//	@Test
-//	public void metersToTheSunTest() {
-//		assertEquals(149565893463L, MilesToMeters.metersToTheSun());
-//	}
+	@Test
+	public void metersToTheSunTest() {
+		assertEquals(149565893463L, MilesToMeters.metersToTheSun());
+	}
 
 
 

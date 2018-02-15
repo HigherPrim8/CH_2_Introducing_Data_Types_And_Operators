@@ -10,19 +10,23 @@ import org.junit.jupiter.api.Test;
 public class InitializingVariablesTest {
 
 
-//	@Test
-//	private void returnStringTest() {
-//		assertTrue(InitializingVariables.returnString().getClass().equals(String.class));
-//	}
+	@Test
+	public void returnStringTest() {
+		assertTrue(InitializingVariables.returnString("This is a string").getClass().equals(String.class));
+	}
 
 
-//	@Test
-//	private void returnLongTest() {
-//		Object o = InitializingVariables.returnLong();
-//		assertTrue(o.getClass().equals(Long.class));
-//	}
+	@Test
+	public void returnLongTest() {
+		Object o = InitializingVariables.returnLong(12345678);
+		assertTrue(o.getClass().equals(Long.class));
+	}
 
-	//TODO Create unit test for returnCharacter
+	@Test
+	public void returnCharacterTest() {
+		Object c = InitializingVariables.returnCharacter('r');
+		assertTrue(c.getClass().equals(Character.class));
+	}
 
 
 }

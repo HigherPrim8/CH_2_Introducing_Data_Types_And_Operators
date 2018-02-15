@@ -14,4 +14,7 @@ public class AboutMe {
 	 * your data.
 	 */
 
+	public static void whoAmI() {
+		System.out.print("Ross \n36 \n I haven't decided on a pronoun yet so I can't really answer this question. ");
+	}
 }

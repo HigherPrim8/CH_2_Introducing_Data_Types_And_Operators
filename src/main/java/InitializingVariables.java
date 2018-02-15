@@ -5,7 +5,9 @@ public class InitializingVariables {
 	 * Call your method returnString.
 	 */
 
-	//TODO write returnString
+	public static String returnString(String newString) {
+		return newString;
+	}
 
 
 	/*
@@ -13,7 +15,9 @@ public class InitializingVariables {
 	 * Call your method returnLong.
 	 */
 
-	//TODO write returnLong
+	public static long returnLong(long newLong) {
+		return newLong;
+	}
 
 
 	/*
@@ -22,6 +26,8 @@ public class InitializingVariables {
 	 * In the class InitializeVariablesTest, add a unit test for this method.
 	 */
 
-	//TODO write returnCharacter
+	public static char returnCharacter(char newChar) {
+		return newChar;
+	}
 
 }
